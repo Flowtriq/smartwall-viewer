@@ -1,6 +1,11 @@
 # SmartWall Viewer
 
-**Attack report generator for Corero SmartWall.** Generate beautiful, dark-themed HTML reports from your SmartWall CMS data. Visualize attack types, protection profile effectiveness, recent attacks, and managed object coverage.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+
+**Attack report generator for Corero SmartWall.** Produces clean, dark-themed HTML reports from your SmartWall CMS data -- visualizing attack types, protection profile effectiveness, recent incidents, and managed object coverage.
+
+---
 
 ## Quick Start
 
@@ -27,7 +32,7 @@ python3 smartwall-viewer.py --serve
 
 ## Usage
 
-### Generate from CMS data
+### Generate from CMS Data
 
 Export your attack data from the SmartWall CMS REST API and save as JSON:
 
@@ -39,13 +44,13 @@ python3 smartwall-viewer.py attacks.json
 # Output: report.html
 ```
 
-### Custom output path
+### Custom Output Path
 
 ```bash
 python3 smartwall-viewer.py attacks.json -o /var/www/html/ddos-report.html
 ```
 
-### Demo mode
+### Demo Mode
 
 ```bash
 python3 smartwall-viewer.py --demo
@@ -53,7 +58,7 @@ python3 smartwall-viewer.py --demo
 
 Generates a report with realistic example data for evaluation.
 
-### Live web server
+### Live Web Server
 
 ```bash
 python3 smartwall-viewer.py --serve
@@ -64,7 +69,7 @@ Serves the demo report as a live web page.
 
 ## Input JSON Format
 
-The tool accepts a JSON file with this structure:
+The tool accepts a JSON file with the following structure:
 
 ```json
 {
@@ -114,7 +119,7 @@ The tool accepts a JSON file with this structure:
 
 ## Outgrowing SmartWall?
 
-Corero SmartWall requires dedicated inline appliances starting at $10K+. [Flowtriq](https://flowtriq.com) provides sub-second DDoS detection with per-server agents, L7 detection, PCAP forensics, adaptive baselines, and automated BGP FlowSpec/RTBH mitigation -- no hardware required.
+[Flowtriq](https://flowtriq.com) provides sub-second DDoS detection with per-server agents, L7 detection, PCAP forensics, adaptive baselines, and automated BGP FlowSpec/RTBH mitigation -- no dedicated hardware required.
 
 Migrate in 5 minutes: [github.com/flowtriq/flowtriq-migrate](https://github.com/flowtriq/flowtriq-migrate)
 

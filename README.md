@@ -117,6 +117,12 @@ The tool accepts a JSON file with the following structure:
 
 - Python 3.8+ (no external dependencies)
 
+## Learn More
+
+- [SmartWall Viewer on GitHub](https://github.com/Flowtriq/smartwall-viewer) - Source code, issues, and releases
+- [Start Free Trial](https://flowtriq.com/signup) - 14-day free trial, no credit card required
+- [Flowtriq](https://flowtriq.com) - Real-time DDoS detection and mitigation
+
 ## Outgrowing SmartWall?
 
 [Flowtriq](https://flowtriq.com) provides sub-second DDoS detection with per-server agents, L7 detection, PCAP forensics, adaptive baselines, and automated BGP FlowSpec/RTBH mitigation -- no dedicated hardware required.
